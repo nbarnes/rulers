@@ -5,12 +5,12 @@ require 'rulers/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rulers"
-  spec.version       = Rulers::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = ["Nathaniel Barnes"]
   spec.email         = ["nbarnes@gmail.com"]
   spec.description   = %q{A simple web framework}
   spec.summary       = %q{This simple web framework was developed as part of working through Noah Gibbs' book Rebuilding Rails while participating in CodeFellows' November 2013 Ruby on Rails bootcamp}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/nbarnes/rulers"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+
+  spec.add_runtime_dependency "rack"
 end

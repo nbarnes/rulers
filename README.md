@@ -14,5 +14,5 @@ http://www.linkedin.com/pub/nathaniel-barnes/8/b88/a6a
 License
 =======
 All content and code in this repository that belongs to myself, Nathaniel
-Barnes, is lisenced to any users under the terms of the M.I.T. Licence.
-Almost all of it belongs to Noah Gibbs', though.
+Barnes, is available to other users under the terms of the M.I.T. License.
+Almost all of it belongs to Noah Gibbs, though.
