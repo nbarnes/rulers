@@ -5,7 +5,7 @@ require 'rulers/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rulers"
-  spec.version       = '0.0.1'
+  spec.version       = Rulers::VERSION
   spec.authors       = ["Nathaniel Barnes"]
   spec.email         = ["nbarnes@gmail.com"]
   spec.description   = %q{A simple web framework}
@@ -20,6 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rack-test"
 
   spec.add_runtime_dependency "rack"
 end
